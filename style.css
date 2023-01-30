@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    background-color: antiquewhite;
+    color: darkgreen;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50% 50%;
+    max-width: 90%;
+    padding-top: 10px;
+  }
+
+.grid1, .grid2, .grid4, .grid5, .grid6{
+    margin: 2em;
+    
+    padding: 10px;
+}
+img{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+#h1{
+    color: blueviolet;
+}
+button{
+    background-color: salmon;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+
+  }
+ 
